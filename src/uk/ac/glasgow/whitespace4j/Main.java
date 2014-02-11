@@ -53,7 +53,7 @@ public class Main {
 		} catch (FileNotFoundException e) {
 		
 			String message =
-				"Couldn't load target program from file path [%s].";
+				"Couldn't load target program from file path [%s]. Error.";
 			
 			logger.fatal(String.format(message,filePath), e);
 		
